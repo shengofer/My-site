@@ -1,0 +1,81 @@
+html {
+    font-size:100%;height:100%;
+}
+body {
+    height:100%;
+    text-align:center;
+    /*background: url(../images/bg.gif) repeat-y center;*/
+    font-family: 'Coustard', serif;
+    font-size: 1em;
+    color: #999999;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper {
+    width:960px;
+    height: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+/* ----BEGIN Header---- */
+.header {
+    height:20%;
+    background-color: deeppink;
+    position: relative;
+}
+/* ----END Header---- */
+.maincontainer{
+    overflow:hidden;
+    width: 100%;
+    height: 70%;
+ /*   background-color: aqua;*/
+}
+/* ----BEGIN left aside---- */
+.leftsidebar{
+    float:left;
+    width:15%;
+    height: 100%;
+    position: relative;
+   /* position:fixed;*/
+    padding-top:10px;
+}
+/* ----END lest aside---- */
+/* ----BEGIN Right site bar---- */
+.rightsitebar{
+    float:left;
+    width:20%;
+    height: 100%;
+    position: relative;
+ /*   position:fixed;*/
+  /*  padding-top:10px;*/
+    background-color: #ffff99;
+}
+/* ----END Right site bar---- */
+/* ----BEGIN main content---- */
+.main-content{
+    float: left;
+    width:65%;
+    position: relative;
+    background-color: blue;
+}
+/* ----END main content---- */
+/* ----BEGIN Footer---- */
+.footer {
+    height: 10%;
+    background-color: #5eff31;
+}
+/* ----END Fotter---- */
+/* ----nav---- */
+nav{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+nav ul{
+    /*background:url(../images/nav_bg.png) no-repeat bottom center;*/
+    font-family: "LeagueGothicRegular", Arial, Helvetica, sans-serif;
+    font-size:30px;
+    padding-top:30px;
+    background:url(../images/nav_bg.png) no-repeat top center;
+    text-transform:uppercase;
+}
